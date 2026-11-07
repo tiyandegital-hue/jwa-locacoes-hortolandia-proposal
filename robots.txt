@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jwa-locacoes-hortolandia-proposal.vercel.app/sitemap.xml

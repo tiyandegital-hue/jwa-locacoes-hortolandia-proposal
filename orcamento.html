@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Orçamento — JWA Locações de Caçambas | Hortolândia/SP</title>
+<meta name="description" content="Monte seu orçamento de caçamba: escolha o tamanho, o material, o bairro, os dias e a data. A faixa estimada é confirmada pela equipe JWA no WhatsApp.">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap header-in">
+    <a class="logo" href="index.html" aria-label="JWA Locações — Início"><span class="mark">JWA</span><span class="word">Locações de Caçambas</span></a>
+    <button class="burger" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav class="main" aria-label="Navegação principal">
+      <a href="index.html">Início</a>
+      <a href="cacambas.html">Caçambas &amp; Serviços</a>
+      <a href="como-funciona.html">Como Funciona</a>
+      <a href="orcamento.html" class="active" aria-current="page">Orçamento</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+    <a class="btn small nav-cta" href="index.html#bot-phone">Pedir pelo WhatsApp</a>
+  </div>
+</header>
+
+<main>
+  <div class="wrap page-hero">
+    <p class="eyebrow">Orçamento</p>
+    <h1>Monte seu <span>orçamento.</span></h1>
+    <p class="lead">Responda e receba a faixa estimada — valores finais confirmados pela equipe JWA no WhatsApp.</p>
+  </div>
+
+  <section class="block" style="padding-top:0">
+    <div class="wrap quote-grid">
+      <form class="qform" id="quote-form">
+        <div class="field">
+          <span class="lbl" id="lbl-tamanho">Qual tamanho de caçamba?</span>
+          <div class="pick" data-pick="tamanho" role="group" aria-labelledby="lbl-tamanho">
+            <button type="button" data-value="Pequena">Pequena</button>
+            <button type="button" data-value="Média">Média</button>
+            <button type="button" data-value="Grande">Grande</button>
+            <button type="button" class="wide" data-value="Não sei o tamanho">Não sei — te ajudamos a escolher</button>
+          </div>
+        </div>
+        <div class="field">
+          <span class="lbl" id="lbl-tipo">O que vai descartar?</span>
+          <div class="pick" data-pick="tipo" role="group" aria-labelledby="lbl-tipo">
+            <button type="button" data-value="Entulho de obra">Entulho de obra</button>
+            <button type="button" data-value="Reforma">Reforma</button>
+            <button type="button" data-value="Terra">Terra</button>
+            <button type="button" data-value="Móveis velhos">Móveis velhos</button>
+            <button type="button" data-value="Poda">Poda</button>
+          </div>
+        </div>
+        <div class="field">
+          <label for="q-bairro">Qual o bairro e cidade da entrega?</label>
+          <input type="text" id="q-bairro" placeholder="Digite o bairro e a cidade" autocomplete="off">
+        </div>
+        <div class="field">
+          <label for="q-dias">Por quantos dias precisa?</label>
+          <div class="slider-val" id="q-dias-val">7 dias</div>
+          <input type="range" id="q-dias" min="3" max="10" step="1" value="7" aria-label="Dias de locação">
+          <div class="slider-labels"><span>3 dias</span><span>5 dias</span><span>7 dias</span><span>10 dias</span></div>
+        </div>
+        <div class="field">
+          <label for="q-data">Data da entrega</label>
+          <input type="date" id="q-data" aria-label="Data de entrega">
+        </div>
+        <button type="submit" class="btn">Enviar pelo WhatsApp</button>
+        <p class="form-ok" id="quote-ok">Demonstração: sua estimativa foi registrada. O pedido oficial é pelo bot do WhatsApp — os valores finais são confirmados pela equipe JWA.</p>
+        <p class="footnote" style="margin-top:1rem">Os valores finais são confirmados pela equipe JWA no WhatsApp.</p>
+      </form>
+
+      <aside class="est-panel" aria-live="polite">
+        <h3>Resumo do pedido</h3>
+        <dl>
+          <dt>Tamanho:</dt><dd data-est="tamanho">—</dd>
+          <dt>Material:</dt><dd data-est="tipo">—</dd>
+          <dt>Dias:</dt><dd data-est="dias">7 dias</dd>
+          <dt>Entrega:</dt><dd data-est="data">—</dd>
+          <dt>Endereço:</dt><dd data-est="bairro">—</dd>
+        </dl>
+        <p class="price">Faixa estimada: a confirmar</p>
+        <p class="note">Os valores finais são confirmados pela equipe JWA no WhatsApp.</p>
+        <a class="btn dark" href="index.html#bot-phone">Enviar pelo WhatsApp</a>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h4>JWA — Locações de Caçambas, Materiais Elétricos e Hidráulicos</h4>
+        <p style="color:#c9ccc9;font-size:.94rem">Locação de caçambas, serviços com Bobcat e materiais elétricos e hidráulicos. Hortolândia e região.</p>
+      </div>
+      <div>
+        <h4>Navegação</h4>
+        <a href="index.html">Início</a>
+        <a href="cacambas.html">Caçambas &amp; Serviços</a>
+        <a href="como-funciona.html">Como Funciona</a>
+        <a href="orcamento.html">Orçamento</a>
+        <a href="contato.html">Contato</a>
+      </div>
+      <div>
+        <h4>Contato</h4>
+        <a href="mailto:cacambasjc@yahoo.com.br">cacambasjc@yahoo.com.br</a>
+        <a href="tel:+5519992104616">(19) 99210-4616</a>
+        <a href="contato.html">Hortolândia — SP</a>
+      </div>
+    </div>
+    <div class="copy"><span>© 2026 JWA Locações. Todos os direitos reservados.</span><span>Atendimento via WhatsApp — Hortolândia e região</span></div>
+  </div>
+</footer>
+
+<a class="sticky-wa" href="index.html#bot-phone" aria-label="Pedir pelo WhatsApp">
+  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5.1-1.3A10 10 0 1 0 12 2Z" fill="#fff"/><path d="M12 4.5A7.5 7.5 0 0 0 5.4 16.6L5 18.5l2-.5A7.5 7.5 0 1 0 12 4.5Z" fill="#25D366"/><path d="M9 8.8c-.3 2.5 1.7 5.4 4.4 5.9l.7-.6-.9-1.2 1-.4c.5.2 1 .6 1.1 1.1.2.8-.3 1.6-1.1 1.7-3.3.4-6.9-2.2-7.2-5.6-.1-.8.4-1.5 1.1-1.7.5-.1 1 .1 1.2.6l.3.8-.6.4Z" fill="#fff"/></svg>
+  Pedir pelo WhatsApp
+</a>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
